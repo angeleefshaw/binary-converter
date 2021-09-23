@@ -14,7 +14,6 @@ function compute(startingNumber) {
 }
 
 function convertToBinary(input) {
-    //this.binaryNumber = [];
     let workingNum = isDecimal(input);
 
     if (workingNum) {
