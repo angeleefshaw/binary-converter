@@ -11,5 +11,6 @@ Binary can be broken into two categories
 
 - Computers only understand two states of being, on and off.
 - Binary comes in specific lengths to allow for proper processing (done via the CPU)
+
 -- _byte_ - 8 bits
 -- _word_ - 2 bytes
