@@ -1,10 +1,10 @@
-import * as $ from "jquery";
+let binaryNumber = [];
+var userInput = document.querySelector("#number")!;
+var submit = document.querySelector("#submit")!;
 
-let binaryNumber = []
-placeholder: Number;
 
-$("#submit").on("click", function addTrip() {
-    var userInput = $("number");
+submit.addEventListener("click", (e: Event) => {
+    e.preventDefault();
     startLoop(userInput)
 })
 
@@ -16,8 +16,8 @@ function startLoop(userNumber) {
 
 function computeNumber(startingNumber) {
     const num = startingNumber/2
-    this.placeholder = addToBinaryArray(num)
-    startLoop(this.placeholder)
+    let placeholder = addToBinaryArray(num)
+    startLoop(placeholder)
 }
 
 function addToBinaryArray(input) {
