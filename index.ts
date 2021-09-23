@@ -1,19 +1,19 @@
 let binaryNumber = []
 placeholder: Number;
 
-function startHere(userNumber) {
+function startLoop(userNumber) {
     if(userNumber >= 1) {
-        compute(userNumber)
+        computeNumber(userNumber)
     } else {console.log(binaryNumber)}
 }
 
-function compute(startingNumber) {
+function computeNumber(startingNumber) {
     const num = startingNumber/2
-    this.placeholder = convertToBinary(num)
-    startHere(this.placeholder)
+    this.placeholder = addToBinaryArray(num)
+    startLoop(this.placeholder)
 }
 
-function convertToBinary(input) {
+function addToBinaryArray(input) {
     let workingNum = isDecimal(input);
 
     if (workingNum) {
@@ -34,4 +34,4 @@ function isDecimal(number) {
      return false;
 }
 
-startHere(500)
+startLoop(500)
