@@ -13,4 +13,5 @@ Binary can be broken into two categories
 - Binary comes in specific lengths to allow for proper processing (done via the CPU)
 
 -- _byte_ - 8 bits
+
 -- _word_ - 2 bytes
