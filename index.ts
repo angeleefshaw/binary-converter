@@ -1,5 +1,12 @@
+import * as $ from "jquery";
+
 let binaryNumber = []
 placeholder: Number;
+
+$("#submit").on("click", function addTrip() {
+    var userInput = $("number");
+    startLoop(userInput)
+})
 
 function startLoop(userNumber) {
     if(userNumber >= 1) {
@@ -34,4 +41,4 @@ function isDecimal(number) {
      return false;
 }
 
-startLoop(500)
+startLoop(123)
