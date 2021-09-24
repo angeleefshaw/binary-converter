@@ -18,4 +18,4 @@ Binary can be broken into two categories
 
 ## Binary Converter
 
-To test the code, clone the project and start a live server via the index.html file
+To test the code, clone the project and start a live server via the index.html file. The binary number will be logged to the console for now. 
