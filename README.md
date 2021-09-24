@@ -15,3 +15,7 @@ Binary can be broken into two categories
 -- _byte_ - 8 bits
 
 -- _word_ - 2 bytes
+
+## Binary Converter
+
+To test the code, clone the project and start a live server via the index.html file
