@@ -1,8 +1,10 @@
 var binaryNumber = [];
-var userInput = document.querySelector("#number");
+
 var submit = document.querySelector("#submit");
+
 submit.addEventListener("click", function (e) {
     e.preventDefault();
+    var userInput = $("#number").val();
     startLoop(userInput);
 });
 function startLoop(userNumber) {
@@ -10,7 +12,7 @@ function startLoop(userNumber) {
         computeNumber(userNumber);
     }
     else {
-        console.log(binaryNumber);
+        console.log(binaryNumber.reverse());
     }
 }
 function computeNumber(startingNumber) {
