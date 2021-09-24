@@ -15,7 +15,7 @@ function startLoop(userNumber) {
 }
 function computeNumber(startingNumber) {
     var num = startingNumber / 2;
-    let placeholder = addToBinaryArray(num);
+    var placeholder = addToBinaryArray(num);
     startLoop(placeholder);
 }
 function addToBinaryArray(input) {
@@ -36,4 +36,3 @@ function isDecimal(number) {
     else
         return false;
 }
-startLoop(123);

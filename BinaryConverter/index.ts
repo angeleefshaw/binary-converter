@@ -40,5 +40,3 @@ function isDecimal(number) {
    else
      return false;
 }
-
-startLoop(123)
